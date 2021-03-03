@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="logoText">
+        <item name="android:textSize">26sp</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:shadowColor">@color/primaryLightColor</item>
+        <item name="android:shadowDx">3</item>
+        <item name="android:shadowDy">3</item>
+        <item name="android:shadowRadius">4</item>
+    </style>
+
+    <style name="enterNumber">
+        <item name= "android:layout_gravity">center</item>
+        <item name= "android:layout_marginLeft">42.5dp</item>
+        <item name= "android:layout_marginRight">42.5dp</item>
+        <item name= "android:layout_marginTop">20dp</item>
+        <item name= "android:inputType">numberDecimal</item>
+        <item name= "android:padding">5dp</item>
+        <item name= "android:paddingLeft">20dp</item>
+        <item name= "android:paddingRight">20dp</item>
+        <item name= "android:textAlignment">center</item>
+        <item name= "android:cursorVisible">false</item>
+        <item name= "android:elevation">10dp</item>
+        <item name= "android:textColor">@color/primaryColor</item>
+    </style>
+
+    <style name="percent">
+
+        <item name= "android:layout_gravity">center</item>
+        <item name= "android:layout_marginLeft">42.5dp</item>
+        <item name= "android:layout_marginRight">42.5dp</item>
+        <item name= "android:layout_marginTop">10dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name= "android:gravity">center</item>
+        <item name= "android:layout_weight">6</item>
+        <item name= "android:textColor">@color/primaryTextColor</item>
+
+    </style>
+
+    <style name="box1">
+        <item name= "android:layout_marginTop">25dp</item>
+        <item name= "android:padding">10dp</item>
+        <item name= "android:paddingLeft">20dp</item>
+        <item name= "android:paddingRight">20dp</item>
+        <item name= "android:textAlignment">center</item>
+        <item name= "android:cursorVisible">false</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:elevation">10dp</item>
+        <item name= "android:textColor">@color/primaryTextColor</item>
+    </style>
+
+    <style name="resultBox">
+        <item name= "android:layout_marginTop">60dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name= "android:layout_marginLeft">25dp</item>
+        <item name= "android:layout_marginRight">25dp</item>
+        <item name= "android:padding">10dp</item>
+        <item name= "android:paddingLeft">20dp</item>
+        <item name= "android:paddingRight">20dp</item>
+        <item name= "android:textAlignment">center</item>
+        <item name= "android:cursorVisible">false</item>
+        <item name= "android:gravity">center</item>
+        <item name="android:textSize">30sp</item>
+        <item name= "android:textColor">@color/primaryColor</item>
+    </style>
+
+</resources>

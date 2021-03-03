@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/primaryColor">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/percentCounter"
+        android:layout_margin="20dp"
+        style="@style/logoText"/>
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="146dp"
+        android:layout_height="122dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:src="@mipmap/logos" />
+
+
+    <EditText
+        android:id="@+id/enterBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Number"
+        android:background="@drawable/box"
+        style="@style/enterNumber"/>
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:weightSum="120">
+
+        <TextView
+            android:id="@+id/percentBar"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            style="@style/percent"
+            android:text="@string/percent0"/>
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="250dp"
+            android:layout_height="10dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="12.5dp"
+            android:layout_marginRight="10dp"
+            android:max="100"
+            android:thumbTint="@color/primaryTextColor" />
+
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+        <TextView
+            android:id="@+id/tip"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:text="@string/tip"
+            style="@style/percent"/>
+
+        <TextView
+            android:id="@+id/tipBar"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:background="@drawable/box"
+            style="@style/box1"/>
+
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:text="@string/total"
+            style="@style/percent"/>
+
+        <TextView
+            android:id="@+id/totalBar"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:background="@drawable/box"
+            style="@style/box1"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/resultBar"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="@drawable/box"
+        android:text="@string/result"
+        style="@style/resultBox"/>
+
+    <TextView
+        android:id="@+id/nameSurname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/vytautas_kuklys"
+        android:textAlignment="center"
+        android:layout_margin="30dp"/>
+</LinearLayout>
